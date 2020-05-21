@@ -1,0 +1,146 @@
+/* Reset CSS (DO NOT DELETE) */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Lucida Grande";
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Write your code below */
+
+/* ヘッダーとメインパートで共通のクラス */
+.container {
+  width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.top-wrapper {
+  padding: 180px 0px 100px 0px;
+  background-image: url(https://prog-8.com/images/html/advanced/top_en.png);
+  background-size: cover;
+  color: white;
+  text-align: center;
+  height: 350px;
+}
+.top-wrapper h1 {
+  opacity: 0.7;
+  font-size: 45px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+}
+.top-wrapper p {
+  opacity: 0.7;
+  margin-bottom: 3px;
+}
+.social-media {
+  padding-top: 10px;
+  text-align: center;
+}
+.btn {
+  border-radius: 3px;
+  display: inline-block;
+  padding: 13px;
+  opacity: 0.8;
+}
+.signup-email {
+  background-color: #239b76;
+  color: white;
+}
+.signup-fb {
+  background-color: #3b5998;
+  color: white;
+  margin-right: 10px;
+}
+.signup-twitter {
+  background-color: #55acee;
+  color: white;
+}
+.btn:hover {
+  opacity: 1;
+}
+
+header {
+  height: 65px;
+  background-color: rgba(34,49,52,0.9);
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+.header-left {
+  float: left;
+}
+.header-logo {
+  padding-top: 20px;
+  width: 124px;
+}
+.header-right {
+  float: right;
+  background-color: rgba(255,255,255,0.3);
+  transition: all 0.5s;
+}
+.header-right a {
+  display: block;
+  line-height: 65px;
+  color: white;
+  padding: 0px 25px;
+}
+/* end header contents */
+
+/* start main contents */
+/* 1 */
+.main-wrapper {
+  height: 500px;
+  padding-bottom: 80px;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+/* 3 */
+.main-title {
+  padding-top: 60px;
+  padding-bottom: 30px;
+   /* text-align: center; 不要？*/ 
+  color: #5f5d60;
+}
+/* 3 */
+.main-title h2 {
+  font-weight: normal;
+  /* color: #5f5d60; 上で書いてるからここには必要なし*/
+}
+/* 5 */
+.each-lesson {
+  float: left;
+  width: 25%;
+}
+/* 6 */
+.lesson-icon {
+  position: relative;
+}
+/* 6 */
+.lesson-icon p {
+  position: absolute;
+  top: 90px;
+  width: 100%; /* make the text center */
+  color: white;
+}
+/* 7 */
+.desc {
+  font-size: 15px;
+  width: 80%;
+  margin: 20px; /* the answer is only top...??? */
+  display: inline-block;
+  color: #b3aeb5;
+}
